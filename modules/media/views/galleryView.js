@@ -3,8 +3,6 @@
 
 import { View } from "pulseflow"
 
-''
-
 export default class galleryView extends View {
   // define functions for this controller here
   // remember to define url patterns for each function
