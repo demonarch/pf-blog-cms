@@ -4,7 +4,24 @@
 import { Model } from "pulseflow"
 
 export default class commentModel extends Model {
-  // define functions for this controller here
-  // remember to define url patterns for each function
+  constructor(attributes) {
+    super(attributes);
+  }
+
+  get post_id() {
+    return this.get('post_id');
+  }
+
+  set post_id(value) {
+    this.set('post_id', value);
+  }
+
+  get commenter() {
+    return this.get('commenter');
+  }
+
+  set commenter(value) {
+    this.set('commenter', value);
+  }
 }
 

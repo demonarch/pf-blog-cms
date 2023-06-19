@@ -4,7 +4,29 @@
 import { Model } from "pulseflow"
 
 export default class postModel extends Model {
-  // define functions for this controller here
-  // remember to define url patterns for each function
+  constructor(attributes = {}) {
+    super(attributes);
+  }
+
+  get author() {
+    return this.get('author');
+  }
+
+  set author(value) {
+    this.set('author', value);
+  }
+
+
+  get id() {
+    return this.get('id');
+  }
+
+  get content() {
+    return this.get('content');
+  }
+
+  set content(value) {
+    this.set('content', value);
+  }
 }
 
