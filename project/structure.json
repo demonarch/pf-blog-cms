@@ -1,0 +1,156 @@
+{
+  "modules": {
+    "users": {
+      "controllers": {
+        "cUsersController": {
+          "path": "modules/users/controllers/cUsersController.js"
+        },
+        "rUsersController": {
+          "path": "modules/users/controllers/rUsersController.js"
+        },
+        "uUsersController": {
+          "path": "modules/users/controllers/uUsersController.js"
+        },
+        "dUsersController": {
+          "path": "modules/users/controllers/dUsersController.js"
+        },
+        "inUsersController": {
+          "path": "modules/users/controllers/inUsersController.js"
+        },
+        "outUsersController": {
+          "path": "modules/users/controllers/outUsersController.js"
+        }
+      },
+      "views": {
+        "profileHtmlView": {
+          "path": "modules/users/views/profileHtmlView.js"
+        }
+      },
+      "models": {
+        "userModel": {
+          "path": "modules/users/models/userModel.js"
+        }
+      }
+    },
+    "posts": {
+      "controllers": {
+        "cPostsController": {
+          "path": "modules/posts/controllers/cPostsController.js"
+        },
+        "rPostsController": {
+          "path": "modules/posts/controllers/rPostsController.js"
+        },
+        "uPostsController": {
+          "path": "modules/posts/controllers/uPostsController.js"
+        },
+        "dPostsController": {
+          "path": "modules/posts/controllers/dPostsController.js"
+        }
+      },
+      "views": {
+        "htmlView": {
+          "path": "modules/posts/views/htmlView.js"
+        }
+      },
+      "models": {
+        "postModel": {
+          "path": "modules/posts/models/postModel.js"
+        }
+      }
+    },
+    "pages": {
+      "controllers": {
+        "cPagesController": {
+          "path": "modules/pages/controllers/cPagesController.js"
+        },
+        "rPagesController": {
+          "path": "modules/pages/controllers/rPagesController.js"
+        },
+        "uPagesController": {
+          "path": "modules/pages/controllers/uPagesController.js"
+        },
+        "dPagesController": {
+          "path": "modules/pages/controllers/dPagesController.js"
+        }
+      },
+      "views": {
+        "htmlView": {
+          "path": "modules/pages/views/htmlView.js"
+        }
+      },
+      "models": {
+        "pageModel": {
+          "path": "modules/pages/models/pageModel.js"
+        }
+      }
+    },
+    "blocks": {
+      "controllers": {
+        "cBlocksController": {
+          "path": "modules/blocks/controllers/cBlocksController.js"
+        },
+        "rBlocksController": {
+          "path": "modules/blocks/controllers/rBlocksController.js"
+        },
+        "uBlocksController": {
+          "path": "modules/blocks/controllers/uBlocksController.js"
+        },
+        "dBlocksController": {
+          "path": "modules/blocks/controllers/dBlocksController.js"
+        }
+      },
+      "views": {
+        "htmlView": {
+          "path": "modules/blocks/views/htmlView.js"
+        }
+      },
+      "models": {
+        "blockModel": {
+          "path": "modules/blocks/models/blockModel.js"
+        }
+      }
+    },
+    "interactions": {
+      "controllers": {
+        "cCommentController": {
+          "path": "modules/interactions/controllers/cCommentController.js"
+        },
+        "rCommentController": {
+          "path": "modules/interactions/controllers/rCommentController.js"
+        },
+        "uCommentController": {
+          "path": "modules/interactions/controllers/uCommentController.js"
+        },
+        "dCommentController": {
+          "path": "modules/interactions/controllers/dCommentController.js"
+        },
+        "likeController": {
+          "path": "modules/interactions/controllers/likeController.js"
+        },
+        "dislikeController": {
+          "path": "modules/interactions/controllers/dislikeController.js"
+        }
+      },
+      "views": {
+        "commentsHtmlView": {
+          "path": "modules/interactions/views/commentsHtmlView.js"
+        }
+      },
+      "models": {
+        "likeModel": {
+          "path": "modules/interactions/models/likeModel.js"
+        },
+        "commentModel": {
+          "path": "modules/interactions/models/commentModel.js"
+        }
+      }
+    },
+    "ads": {
+      "services": {
+        "googleAdsService": {
+          "path": "modules/ads/services/googleAdsService.js"
+        }
+      }
+    }
+  }
+}
