@@ -1,15 +1,15 @@
 {
-  "dependencies": {
-    "pulseflow": "^1.3.41"
-  },
   "pflow": "./bin/pulseflow.js",
   "bin": {
     "pflow": "./bin/pulseflow.js"
   },
   "scripts": {
-    "fresh": "clear && npm unlink -g pulseflow && npm uninstall pulseflow && npm cache clean --force && npm install pulseflow && npm link pulseflow && clear && npm install && clear && npm ls",
+    "fresh": "npm unlink -g pulseflow && npm uninstall pulseflow && npm cache clean --force && npm install pulseflow && npm link pulseflow && npm install && npm ls",
     "server": "node server.js"
   },
   "mvpcs": "./node_moduels/pulseflow/mvpcs/mvpcs.js",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pulseflow": "^1.3.44"
+  }
 }
