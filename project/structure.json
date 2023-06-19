@@ -151,6 +151,37 @@
           "path": "modules/ads/services/googleAdsService.js"
         }
       }
+    },
+    "media": {
+      "models": {
+        "mediaModel": {
+          "path": "modules/media/models/mediaModel.js"
+        }
+      },
+      "controllers": {
+        "cMediaController": {
+          "path": "modules/media/controllers/cMediaController.js"
+        },
+        "rMediaController": {
+          "path": "modules/media/controllers/rMediaController.js"
+        },
+        "uMediaController": {
+          "path": "modules/media/controllers/uMediaController.js"
+        },
+        "dMediaController": {
+          "path": "modules/media/controllers/dMediaController.js"
+        }
+      },
+      "presenters": {
+        "mediaPresenter": {
+          "path": "modules/media/presenters/mediaPresenter.js"
+        }
+      },
+      "views": {
+        "galleryView": {
+          "path": "modules/media/views/galleryView.js"
+        }
+      }
     }
   }
 }
