@@ -8,6 +8,13 @@ export default class userModel extends Model {
     super(attributes);
   }
 
+  get id() {
+    return this.get('id');
+  }
+
+  set id(value) {
+    this.set('id', value);
+  }
   get name() {
     return this.get('name');
   }
