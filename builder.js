@@ -2,7 +2,7 @@ import fs from "fs";
 import { Builder } from "coalcodes-route-builder";
 import { essentials } from "pulseflow";
 
-const structureJSON = essentials.readStructure();
+const structureJSON = await essentials.readStructure();
 
 const modules = structureJSON.modules;
 for (let module in modules) {
