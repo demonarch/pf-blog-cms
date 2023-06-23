@@ -5,11 +5,12 @@
   },
   "scripts": {
     "fresh": "npm unlink -g pulseflow && npm uninstall pulseflow && npm cache clean --force && npm install pulseflow && npm link pulseflow && npm install && npm ls",
-    "server": "node server.js"
+    "server": "node server.js",
+    "build": "node --experimental-modules build.js"
   },
   "mvpcs": "./node_moduels/pulseflow/mvpcs/mvpcs.js",
   "type": "module",
   "dependencies": {
-    "pulseflow": "^1.3.48"
+    "pulseflow": "^1.3.61"
   }
 }
