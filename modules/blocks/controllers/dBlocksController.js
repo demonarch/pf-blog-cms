@@ -3,8 +3,42 @@
 
 import { Controller } from "pulseflow"
 
+
+
+/**
+ * @Route (path="/test")
+ */
+
 export default class dBlocksController extends Controller {
-  // define functions for this controller here
-  // remember to define url patterns for each function
+
+  /**
+   * @Route (path="/get-orders", method=GET, roles=[])
+   * @param req
+   * @param res
+   * @return {Promise<void>}
+   */
+  static async test() {
+    console.log('test');
+  }
+
+  /**
+ * @Route (path="/get-orders", method=GET, roles=[])
+ * @param req
+ * @param res
+ * @return {Promise<void>}
+ */
+  static async test() {
+    console.log('test');
+  }
+
+  /**
+   * @Route (path="/get-orders", method=GET, roles=[])
+   * @param req
+   * @param res
+   * @return {Promise<void>}
+   */
+  static async test() {
+    console.log('test');
+  }
 }
 
