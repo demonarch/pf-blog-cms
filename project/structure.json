@@ -2,23 +2,8 @@
   "modules": {
     "users": {
       "controllers": {
-        "cUsersController": {
-          "path": "modules/users/controllers/cUsersController.js"
-        },
-        "rUsersController": {
-          "path": "modules/users/controllers/rUsersController.js"
-        },
-        "uUsersController": {
-          "path": "modules/users/controllers/uUsersController.js"
-        },
-        "dUsersController": {
-          "path": "modules/users/controllers/dUsersController.js"
-        },
-        "inUsersController": {
-          "path": "modules/users/controllers/inUsersController.js"
-        },
-        "outUsersController": {
-          "path": "modules/users/controllers/outUsersController.js"
+        "UserController": {
+          "path": "modules/users/controllers/UserController.js"
         }
       },
       "views": {

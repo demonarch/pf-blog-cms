@@ -1,9 +1,4 @@
-import cUsersController from '../modules/users/controllers/cUsersController.js';
-import rUsersController from '../modules/users/controllers/rUsersController.js';
-import uUsersController from '../modules/users/controllers/uUsersController.js';
-import dUsersController from '../modules/users/controllers/dUsersController.js';
-import inUsersController from '../modules/users/controllers/inUsersController.js';
-import outUsersController from '../modules/users/controllers/outUsersController.js';
+import UserController from '../modules/users/controllers/UserController.js';
 import cPostsController from '../modules/posts/controllers/cPostsController.js';
 import rPostsController from '../modules/posts/controllers/rPostsController.js';
 import uPostsController from '../modules/posts/controllers/uPostsController.js';
@@ -27,7 +22,9 @@ import rMediaController from '../modules/media/controllers/rMediaController.js';
 import uMediaController from '../modules/media/controllers/uMediaController.js';
 import dMediaController from '../modules/media/controllers/dMediaController.js';
 export default (router) => {
-
+	router.post("/users/create",  requestHandler(UserController, UserController.create, []))
+	router.get("/users/read",  requestHandler(UserController, UserController.read, []))
+	router.post("/users/update",  requestHandler(UserController, UserController.update, []))
 
 
 
