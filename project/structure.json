@@ -182,6 +182,13 @@
           "path": "modules/media/views/galleryView.js"
         }
       }
+    },
+    "tools": {
+      "services": {
+        "emailService": {
+          "path": "modules/tools/services/emailService.js"
+        }
+      }
     }
   }
 }
