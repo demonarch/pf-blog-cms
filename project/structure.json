@@ -19,17 +19,8 @@
     },
     "posts": {
       "controllers": {
-        "cPostsController": {
-          "path": "modules/posts/controllers/cPostsController.js"
-        },
-        "rPostsController": {
-          "path": "modules/posts/controllers/rPostsController.js"
-        },
-        "uPostsController": {
-          "path": "modules/posts/controllers/uPostsController.js"
-        },
-        "dPostsController": {
-          "path": "modules/posts/controllers/dPostsController.js"
+        "PostController": {
+          "path": "modules/posts/controllers/PostController.js"
         }
       },
       "views": {
@@ -45,17 +36,8 @@
     },
     "pages": {
       "controllers": {
-        "cPagesController": {
-          "path": "modules/pages/controllers/cPagesController.js"
-        },
-        "rPagesController": {
-          "path": "modules/pages/controllers/rPagesController.js"
-        },
-        "uPagesController": {
-          "path": "modules/pages/controllers/uPagesController.js"
-        },
-        "dPagesController": {
-          "path": "modules/pages/controllers/dPagesController.js"
+        "PageController": {
+          "path": "modules/pages/controllers/PageController.js"
         }
       },
       "views": {
