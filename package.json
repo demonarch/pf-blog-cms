@@ -11,6 +11,6 @@
   "mvpcs": "./node_moduels/pulseflow/mvpcs/mvpcs.js",
   "type": "module",
   "dependencies": {
-    "pulseflow": "^1.4.3"
+    "pulseflow": "^1.4.7"
   }
 }
