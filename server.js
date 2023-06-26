@@ -29,6 +29,7 @@ function requestHandler(req, res, next) {
   if (matchingRoute) {
     // Invoke the matching route's handler
     matchingRoute.spec.handler(req, res, next);
+    console.log(req);
   } else {
     res.send(404, 'Route not found');
   }
