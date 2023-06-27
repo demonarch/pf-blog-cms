@@ -1,6 +1,9 @@
 import UserController from '../modules/users/controllers/UserController.js';
 import PostController from '../modules/posts/controllers/PostController.js';
 import PageController from '../modules/pages/controllers/PageController.js';
+
+import { requestHandler } from '../handler.js'
+
 export default (router) => {
 	router.post("/users/create",  requestHandler(UserController, UserController.create, []))
 	router.get("/users/read",  requestHandler(UserController, UserController.read, []))
@@ -11,5 +14,5 @@ export default (router) => {
 	router.get("/posts/update",  requestHandler(PostController, PostController.update, []))
 
 
-	return router
+	return [...router.stack];
 }

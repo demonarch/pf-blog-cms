@@ -42,7 +42,7 @@ for (let module in modules) {
 const myimports = await essentials.importControllers();
 
 const imports = await myimports.join('\n');
-const endpointsFileContent = imports + '\nexport default (router) => {' + allRoutes + '	return router\n}';
+const endpointsFileContent = imports + `\n\nimport { requestHandler } from '../handler.js'\n` + '\nexport default (router) => {' + allRoutes + '	return router\n}';
 fs.writeFileSync('./project/endpoints.js', endpointsFileContent);
 
 console.log(essentials.colors.green + 'imported all endpoints in ./project/endpoints.js' + essentials.colors.reset);
