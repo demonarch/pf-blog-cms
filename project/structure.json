@@ -12,8 +12,8 @@
         }
       },
       "models": {
-        "userModel": {
-          "path": "modules/users/models/userModel.js"
+        "UserModel": {
+          "path": "modules/users/models/UserModel.js"
         }
       }
     },

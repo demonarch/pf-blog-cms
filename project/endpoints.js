@@ -14,5 +14,5 @@ export default (router) => {
 	router.get("/posts/update",  requestHandler(PostController, PostController.update, []))
 
 
-	return [...router.stack];
+	return router
 }

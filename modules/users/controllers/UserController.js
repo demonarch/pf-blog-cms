@@ -2,7 +2,7 @@
 // '/home/kian/Documents/pf-blog-cms/modules/users/controllers/cUsersController.js'
 
 import { Controller } from "pulseflow"
-
+import UserModel from '../models/UserModel.js';
 /**
  * @Route (path="/users")
  */
@@ -51,7 +51,7 @@ export default class UserController extends Controller {
     if (!id || !mongoose.isValidObjectId(id)) {
         return next();
     }
-    const user = await User.findById(id).lean(true);
+    const user = await UserModel.findById(id).lean(true);
     if (!user) {
         return next();
     }
