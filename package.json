@@ -1,8 +1,4 @@
 {
-  "pflow": "./bin/pulseflow.js",
-  "bin": {
-    "pflow": "./bin/pulseflow.js"
-  },
   "scripts": {
     "fresh": "npm unlink -g pulseflow && npm uninstall pulseflow && npm cache clean --force && npm install pulseflow && npm link pulseflow && npm install && npm ls",
     "server": "node server.js",
@@ -12,6 +8,6 @@
   "type": "module",
   "dependencies": {
     "npm": "^9.7.2",
-    "pulseflow": "^1.4.35"
+    "pulseflow": "^1.4.55"
   }
 }
