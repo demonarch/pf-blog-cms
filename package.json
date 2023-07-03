@@ -8,6 +8,6 @@
   "type": "module",
   "dependencies": {
     "npm": "^9.7.2",
-    "pulseflow": "^1.4.86"
+    "pulseflow": "^1.4.89"
   }
 }
