@@ -7,7 +7,6 @@
   "mvpcs": "./node_moduels/pulseflow/mvpcs/mvpcs.js",
   "type": "module",
   "dependencies": {
-    "npm": "^9.7.2",
-    "pulseflow": "^1.4.89"
+    "npm": "^9.7.2"
   }
 }
